@@ -3,41 +3,35 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.items-navbar {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-around;
-  width: 220px;
-}
-
-.items-navbar a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  color: black;
-}
-
-.contact-div {
-  display: flex;
-  flex-direction: row;
-  margin-right: 4%;
-}
-
-.input {
-  margin-right: 5%;
-}
-.input input {
-  border: 1px solid black;
-  border-radius: 60px;
-  padding-left: 3px;
-}
-
-.icon {
-  width: 180px;
-  height: 120x;
+  div {
+    .items-navbar {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-around;
+      width: 350px;
+      a {
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .image {
+    .icon {
+      width: 180px;
+      height: 120x;
+    }
+  }
+  .input {
+    margin-right: 5%;
+    input {
+      border: 1px solid black;
+      border-radius: 60px;
+      padding-left: 3px;
+    }
+  }
 }
