@@ -7,6 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import Activities from "./pages/Activities";
 import EatAndDrink from "./pages/EatAndDrink";
 import Wtf from "./pages/Wtf";
+import Visit from "./pages/Visit";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={ArticleList} />
+        <Route path="/visit" component={Visit} />
         <Route path="/activities" component={Activities} />
         <Route path="/eatanddrink" component={EatAndDrink} />
         <Route path="/wtf" component={Wtf} />
