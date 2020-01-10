@@ -16,21 +16,23 @@ function ArticleList() {
 const article = [
   {
     image: "./Images/tokyo-article-place.jpg",
-    title: "PLACES",
-    lorum:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    title: "VISIT",
+    lorum: "Discover the best secret place only knew by Tokyoiste people "
+  },
+  {
+    image: "./Images/tokyo-article-place.jpg",
+    title: "ACTIVITIES",
+    lorum: "Do what is only existing in Tokyo!"
   },
   {
     image: "Images/tokyo-article-bento.jpg",
-    title: "BENTO",
-    lorum:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    title: "EAT&DRINK",
+    lorum: "The most liked place by local people"
   },
   {
     image: "Images/tokyo-article-game.jpg",
-    title: "GAME",
-    lorum:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    title: "WTF",
+    lorum: "Japan reserve unique and crazy experience"
   }
 ];
 
