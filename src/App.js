@@ -4,9 +4,9 @@ import "./App.scss";
 import Footer from "./components/Footer";
 import ArticleList from "./components/ArtcileList";
 import { Switch, Route } from "react-router-dom";
-import Places from "./components/Places";
-import Bento from "./components/Bento";
-import Game from "./components/Game";
+import Activities from "./pages/Activities";
+import EatAndDrink from "./pages/EatAndDrink";
+import Wtf from "./pages/Wtf";
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={ArticleList} />
-        <Route path="/places" component={Places} />
-        <Route path="/bento" component={Bento} />
-        <Route path="/game" component={Game} />
+        <Route path="/activities" component={Activities} />
+        <Route path="/eatanddrink" component={EatAndDrink} />
+        <Route path="/wtf" component={Wtf} />
       </Switch>
       <Footer />
     </div>

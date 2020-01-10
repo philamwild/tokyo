@@ -7,14 +7,17 @@ function Navbar() {
     <nav class="navbar">
       <div>
         <ul className="items-navbar">
-          <NavLink activeClassName="active" to="/places">
-            Places
+          <NavLink activeClassName="active" to="/">
+            Home
           </NavLink>
-          <NavLink activeClassName="active" to="/bento">
-            Bento
+          <NavLink activeClassName="active" to="/activities">
+            Activities
           </NavLink>
-          <NavLink activeClassName="active" to="/game">
-            Game
+          <NavLink activeClassName="active" to="/eatanddrink">
+            Eat&Drink
+          </NavLink>
+          <NavLink activeClassName="active" to="/wtf">
+            WTF
           </NavLink>
         </ul>
       </div>

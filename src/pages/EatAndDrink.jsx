@@ -1,6 +1,6 @@
 import React from "react";
 
-function Bento() {
+function EatAndDrink() {
   return (
     <div>
       <h1>Bento</h1>
@@ -8,4 +8,4 @@ function Bento() {
   );
 }
 
-export default Bento;
+export default EatAndDrink;

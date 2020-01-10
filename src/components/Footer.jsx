@@ -8,16 +8,16 @@ function Footer() {
       <div className="footer-line">
         <div className="footer-list">
           <NavLink activeClassName="active" to="/">
-            Acceuil
+            Home
           </NavLink>
-          <NavLink activeClassName="active" to="/places">
-            Places
+          <NavLink activeClassName="active" to="/activities">
+            Activities
           </NavLink>
-          <NavLink activeClassName="active" to="/bento">
-            Bento
+          <NavLink activeClassName="active" to="/eatanddrink">
+            Eat&Drink
           </NavLink>
-          <NavLink activeClassName="active" to="/game">
-            Game
+          <NavLink activeClassName="active" to="/wtf">
+            Wtf
           </NavLink>
         </div>
         <div className="footer-icon">

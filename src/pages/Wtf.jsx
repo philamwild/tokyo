@@ -1,11 +1,11 @@
 import React from "react";
 
-function Places() {
+function Wtf() {
   return (
     <div>
-      <h1>Places</h1>
+      <h1>Game</h1>
     </div>
   );
 }
 
-export default Places;
+export default Wtf;
