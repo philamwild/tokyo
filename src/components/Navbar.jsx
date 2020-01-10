@@ -7,8 +7,8 @@ function Navbar() {
     <nav class="navbar">
       <div>
         <ul className="items-navbar">
-          <NavLink activeClassName="active" to="/">
-            Home
+          <NavLink activeClassName="active" to="/visit">
+            Visit
           </NavLink>
           <NavLink activeClassName="active" to="/activities">
             Activities
