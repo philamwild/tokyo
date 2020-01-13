@@ -1,38 +1,11 @@
 .articlecard {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  height: 300px;
-  margin: auto;
-  padding: 20px;
-
+  width: 40%;
+  height: 600px;
+  margin: 80px auto;
   .article-photo {
-    width: 50%;
-    position: relative;
-    margin-left: 1vw;
     img {
       width: 100%;
-      height: 100%;
-      position: absolute;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-  }
-  .article-text {
-    width: 50%;
-    margin-top: 20px;
-    padding-right: 30px;
-    margin-left: 1vw;
-    a {
-      font-weight: bold;
-      font-size: large;
-      text-decoration: none;
-      color: black;
-      font-family: "Raleway", sans-serif;
-    }
-    button {
-      margin-left: 90%;
-      width: 5vw;
+      height: auto;
     }
   }
 }
