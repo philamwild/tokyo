@@ -7,6 +7,7 @@ function VideoBg() {
       <video autoPlay muted loop>
         <source src="Video/tokyo-crossing.mp4" />
       </video>
+      <h1>TOKYO SQUARE</h1>
     </div>
   );
 }
