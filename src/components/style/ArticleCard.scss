@@ -3,9 +3,18 @@
   height: 600px;
   margin: 80px auto;
   .article-photo {
+    position: relative;
     img {
       width: 100%;
       height: auto;
+      z-index: -1;
+    }
+    img:hover {
+      opacity: 0.5;
+      transition-duration: 0.5s;
+    }
+    .article-text {
+      position: absolute;
     }
   }
 }
