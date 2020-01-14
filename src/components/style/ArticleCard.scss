@@ -1,20 +1,33 @@
 .articlecard {
-  width: 40%;
+  width: 45%;
   height: 600px;
-  margin: 80px auto;
+  margin: auto;
+  position: relative;
   .article-photo {
-    position: relative;
+    position: absolute;
+
     img {
       width: 100%;
       height: auto;
-      z-index: -1;
+      &:hover {
+        opacity: 0.5;
+        transition-duration: 0.5s;
+      }
     }
-    img:hover {
-      opacity: 0.5;
-      transition-duration: 0.5s;
+  }
+  .article-text {
+    position: absolute;
+    padding-left: 5%;
+    h3 {
+      font-family: "Raleway", sans-serif;
+      text-decoration: none;
+      color: black;
+      -webkit-text-stroke: 1px black;
+      letter-spacing: 3px;
+      top: 350px;
     }
-    .article-text {
-      position: absolute;
+    p {
+      text-decoration: none;
     }
   }
 }

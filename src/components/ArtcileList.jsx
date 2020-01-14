@@ -5,14 +5,13 @@ import VideoBg from "./VideoBg";
 
 function ArticleList() {
   return (
-    <div className="article-list">
+    <div className="home-content">
       <VideoBg />
       <div className="article-square">
-        {article.map(item => (
+        {square.map(item => (
           <ArticleCard
             image={item.image}
             title={item.title}
-            lorum={item.lorum}
             dest={item.route}
           />
         ))}
@@ -21,7 +20,7 @@ function ArticleList() {
   );
 }
 
-const article = [
+const square = [
   {
     image: "./Images/visit.jpg",
     title: "VISIT",
