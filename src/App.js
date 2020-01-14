@@ -4,10 +4,10 @@ import "./App.scss";
 import Footer from "./components/Footer";
 import ArticleList from "./components/ArtcileList";
 import { Switch, Route } from "react-router-dom";
-import Activities from "./pages/Activities";
-import EatAndDrink from "./pages/EatAndDrink";
-import Wtf from "./pages/Wtf";
-import Visit from "./pages/Visit";
+import Temples from "./pages/Temples";
+import Jardins from "./pages/Jardins";
+import Audela from "./pages/Audela";
+import Visites from "./pages/Visites";
 
 function App() {
   return (
@@ -15,10 +15,10 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={ArticleList} />
-        <Route path="/visit" component={Visit} />
-        <Route path="/activities" component={Activities} />
-        <Route path="/eatanddrink" component={EatAndDrink} />
-        <Route path="/wtf" component={Wtf} />
+        <Route path="/visites" component={Visites} />
+        <Route path="/temples" component={Temples} />
+        <Route path="/jardins" component={Jardins} />
+        <Route path="/audela" component={Audela} />
       </Switch>
       <Footer />
     </div>

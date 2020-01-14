@@ -1,20 +1,16 @@
 import React from "react";
 import ArticleCard from "../components/ArticleCard";
-import "./style/Visit.scss";
+import "./style/Visites.scss";
 
-function Visit() {
+function Visites() {
   return (
-    <div className="visit-container">
-      <img
-        src="https://hell0tokyo.files.wordpress.com/2016/12/dp3m5695.jpg?w=1200&h=635&crop=1"
-        alt="tokyo landscape"
-      />
+    <div className="visites-container">
       <h2>Les incontournables de Tokyo</h2>
     </div>
   );
 }
 
-export default Visit;
+export default Visites;
 
 const visit = [
   {

@@ -7,17 +7,17 @@ function Footer() {
     <footer>
       <div className="footer-line">
         <div className="footer-list">
-          <NavLink activeClassName="active" to="/">
-            Home
+          <NavLink activeClassName="active" to="/visites">
+            Visites
           </NavLink>
-          <NavLink activeClassName="active" to="/activities">
-            Activities
+          <NavLink activeClassName="active" to="/temples">
+            Temples
           </NavLink>
-          <NavLink activeClassName="active" to="/eatanddrink">
-            Eat&Drink
+          <NavLink activeClassName="active" to="/jardins">
+            Jardins
           </NavLink>
-          <NavLink activeClassName="active" to="/wtf">
-            Wtf
+          <NavLink activeClassName="active" to="/audela">
+            Au delà de Tokyo
           </NavLink>
         </div>
         <div className="footer-icon">
