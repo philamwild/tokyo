@@ -16,8 +16,20 @@
   }
   h1 {
     position: absolute;
-    left: 42%;
-    top: 48%;
+    top: 230px;
+    left: 550px;
     font-family: "Raleway", sans-serif;
+    color: transparent;
+    font-size: 7em;
+    font-weight: 1000;
+    -webkit-text-stroke: 3px white;
+  }
+  h1::before {
+    content: attr(data-text);
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 10px;
+    left: 5px;
   }
 }
