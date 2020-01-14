@@ -24,25 +24,25 @@ const square = [
   {
     image: "./Images/visit.jpg",
     title: "VISIT",
-    route: "/visit",
+    route: "/visites",
     lorum: "Discover the best secret place only knew by Tokyoiste people "
   },
   {
     image: "./Images/activities.jpg",
     title: "ACTIVITIES",
-    route: "/activities",
+    route: "/temples",
     lorum: "Do what is only existing in Tokyo!"
   },
   {
     image: "Images/eatanddrink.jpg",
     title: "EAT&DRINK",
-    route: "/eatanddrink",
+    route: "/jardins",
     lorum: "The most liked place by local people"
   },
   {
     image: "Images/wtf.jpg",
     title: "WTF",
-    route: "/wtf",
+    route: "/audela",
     lorum: "Japan reserve unique and crazy experience"
   }
 ];
