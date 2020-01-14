@@ -1,5 +1,5 @@
 footer {
-  background-color: #a7a7a7;
+  background-color: #555555;
   height: 8vh;
   color: #a7a7a7;
 }
@@ -28,7 +28,8 @@ footer img {
 .footer-list a {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 300;
   letter-spacing: 0.5px;
   text-decoration: none;
   color: white;
@@ -44,7 +45,7 @@ footer img {
 
 .separation-bar {
   height: 2px;
-  background-color: rgb(61, 61, 61);
+  background-color: white;
   max-width: 90%;
   margin: 0 auto;
   opacity: 0.4;
