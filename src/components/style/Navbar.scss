@@ -17,6 +17,19 @@
         letter-spacing: 0.5px;
         text-decoration: none;
         color: black;
+        &:after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 2px;
+          background: #555555;
+          transition: width 0.3s;
+          margin-top: 5px;
+        }
+        &:hover:after {
+          width: 100%;
+          transition: width 0.3s;
+        }
       }
     }
   }
