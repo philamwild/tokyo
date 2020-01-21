@@ -2,17 +2,7 @@ import React from "react";
 import ArticleCard from "../components/ArticleCard";
 import "./style/Visites.scss";
 
-function Visites() {
-  return (
-    <div className="visites-container">
-      <h2>Les incontournables de Tokyo</h2>
-    </div>
-  );
-}
-
-export default Visites;
-
-const visit = [
+const visits = [
   {
     image:
       "https://hell0tokyo.files.wordpress.com/2017/05/dp3m7764.jpg?w=605&h=485&crop=1",
@@ -34,3 +24,23 @@ const visit = [
     title: "Tokyo City View"
   }
 ];
+
+function Visites() {
+  return (
+    <div className="visites-container">
+      <h2>Les incontournables de Tokyo</h2>
+      <div className="article-square">
+        {visits.map(item => (
+          <ArticleCard
+            image={item.image}
+            title={item.title}
+            dest="/"
+            lorum="toto"
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Visites;

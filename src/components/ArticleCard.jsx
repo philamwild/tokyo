@@ -2,22 +2,17 @@ import React from "react";
 import "./style/ArticleCard.scss";
 import { NavLink } from "react-router-dom";
 
-function ArticleCard(props) {
+function ArticleCard({ dest, image, title, lorum }) {
   return (
     <div class="articlecard">
-      <NavLink
-        className="article-title"
-        activeClassName="active"
-        to={props.dest}
-      >
+      <NavLink className="article-title" activeClassName="active" to={dest}>
         <div class="article-photo">
-          <img src={props.image} alt="{tokyo}"></img>
+          <img src={image} alt="{tokyo}"></img>
         </div>
-
         <div class="article-text">
-          <h3>{props.title}</h3>
+          <h3>{title}</h3>
 
-          <p>{props.lorum}</p>
+          <p>{lorum}</p>
         </div>
       </NavLink>
     </div>
