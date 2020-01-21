@@ -11,8 +11,6 @@ function ArticleCard({ dest, image, title, lorum }) {
         </div>
         <div class="article-text">
           <h3>{title}</h3>
-
-          <p>{lorum}</p>
         </div>
       </NavLink>
     </div>

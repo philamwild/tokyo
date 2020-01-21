@@ -23,25 +23,25 @@ function ArticleList() {
 const square = [
   {
     image: "./Images/visit.jpg",
-    title: "VISIT",
+    title: "Visites",
     route: "/visites",
     lorum: "Discover the best secret place only knew by Tokyoiste people "
   },
   {
     image: "./Images/activities.jpg",
-    title: "ACTIVITIES",
+    title: "Activités",
     route: "/temples",
     lorum: "Do what is only existing in Tokyo!"
   },
   {
     image: "Images/eatanddrink.jpg",
-    title: "EAT&DRINK",
+    title: "Jardins",
     route: "/jardins",
     lorum: "The most liked place by local people"
   },
   {
     image: "Images/wtf.jpg",
-    title: "WTF",
+    title: "Au delà",
     route: "/audela",
     lorum: "Japan reserve unique and crazy experience"
   }
