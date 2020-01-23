@@ -1,5 +1,5 @@
 .visites-container {
-  margin: 200px 0 100px 0;
+  margin: 100px 0 100px 0;
 
   h2 {
     text-align: center;
@@ -10,5 +10,14 @@
     padding-bottom: 30px;
     border-top: 2px solid #555555;
     padding-top: 30px;
+  }
+  .article-square {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    margin: 20px 0 70px 0;
   }
 }
